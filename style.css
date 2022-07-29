@@ -1,0 +1,43 @@
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 500px;
+    height:auto;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+.signup-intro{
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    margin:0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.sign-up{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+button.sign-up1{
+    width: 75px;
+    height:35px;
+}
