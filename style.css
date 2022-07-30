@@ -1,6 +1,12 @@
+body{
+    padding: 0;
+    margin:0;
+}
 .logo-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
 }
 img{
     width: 500px;
@@ -22,6 +28,7 @@ a {
 .signup-intro{
     display: flex;
     justify-content: space-between;
+    
 }
 h1 {
     margin:0;
@@ -29,7 +36,12 @@ h1 {
 .header{
     display: flex;
     flex-direction: column;
-    gap: 50px
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1f2937;
+    margin: 0;
+    padding-bottom: 50px;
 }
 
 .sign-up{
@@ -40,4 +52,44 @@ h1 {
 button.sign-up1{
     width: 75px;
     height:35px;
+    background-color: #3882f6;
+    border-style: none;
+    color: #f9faf8;
+}
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+}
+.sign-up h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
+.sign-up p,a{
+    font-size: 18px;
+    color: #f9faf8;
+}
+p.info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+.square{
+    border:#3882f6 3px solid;
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
 }
